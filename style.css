@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcyan;
+  font-family: monospace;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 10rem;
+}
+
+button {
+  font-family: monospace;
+  cursor: pointer;
+  height: 50px;
+  font-size: 2em;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: brown;
+}
+
+button:active {
+  background-color: brown;
+  color: aliceblue;
+}
+
+header h1 {
+  font-size: 5em;
+}
+
+main h1 {
+  font-size: 4em;
+}
+
+p {
+  background-color: aquamarine;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+}
